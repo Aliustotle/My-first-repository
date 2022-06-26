@@ -1,0 +1,98 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    place-content: center;
+
+}
+
+.attribution 
+{ 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a 
+{ 
+    color: hsl(228, 45%, 44%); 
+}
+body
+{
+    background-color: hsl(217, 54%, 11%);
+
+
+}
+.our{
+    color:hsl(178, 100%, 50%);
+    margin-right: 55px;
+    font-family: 400;
+    text-align: left;
+    margin-top: 20px;
+}
+.equi
+{
+text-align: left;
+color:hsl(178, 100%, 50%);
+margin-right: 150px;
+font-family:  'Outfit', sans-serif;
+font-weight: 600;
+margin-top: 20px;
+
+}
+.picture{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    align-content: center;
+}
+.avatar
+{
+height: 20px;
+width: 20px;
+}
+.card{
+    display:grid;
+    justify-items: center;
+    text-align: left;
+background-color: hsl(215, 32%, 27%) ;
+margin-top: 200px;
+margin-left: 500px;
+margin-right: 500px;
+margin-bottom: 200px;
+border-radius: 10px;
+}
+.line{
+    margin:0 auto;
+    border:1px solid  hsl(215, 51%, 70%);
+    width: 70%;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.flex-container{
+    display:flex;
+   justify-content: space-between;
+   margin-top: 10px;
+}
+.flex-container > div {
+    width: 210px;
+    text-align: center;
+line-height: 10px;
+    font-size: 15px;
+}
+.footer
+{
+display:flex;
+margin-right: 120px;
+margin-top: 15px;
+margin-bottom: 20px;
+word-spacing: 0.2em;
+}
+
+.detail{
+    color:hsl(215, 51%, 70%);
+    
+}
+.name{
+    color:hsl(178, 100%, 50%);
+}
