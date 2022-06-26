@@ -96,3 +96,17 @@ word-spacing: 0.2em;
 .name{
     color:hsl(178, 100%, 50%);
 }
+@media (max-width:375px){
+    .flex-container > div {
+        width: 150px;
+        text-align: center;
+    line-height: 10px;
+        font-size: 15px;
+    }
+    .picture{
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+        align-content: center;
+    }
+}
